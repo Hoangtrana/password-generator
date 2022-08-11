@@ -36,6 +36,7 @@ span {
   margin-top: 60px;
   font-family: "Karla", sans-serif;
   font-size: 16px;
+  cursor: pointer;
 }
 .results-line {
   margin-top: 50px;
@@ -55,4 +56,5 @@ span {
   height: 39px;
   border-radius: 5px;
   padding-top: 15px;
+  font-size: 20px;
 }
