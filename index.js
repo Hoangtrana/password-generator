@@ -111,7 +111,8 @@ randomBtnEl.addEventListener("click", function generate() {
 function getPassword() {
   if (!password1El.textContent && !password2El.textContent) {
     for (let i = 0; i < 15; i += 1) {
-      password1El.textContent += getRandomCharector();
+      let p1 = (password1El.textContent += getRandomCharector());
+
       password2El.textContent += getRandomCharector();
     }
   } else {
